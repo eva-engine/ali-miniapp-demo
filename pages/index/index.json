@@ -1,0 +1,5 @@
+{
+  "usingComponents":{
+      "eva-game": "../../components/eva-game/eva-game"
+  }
+}

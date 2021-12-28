@@ -1,0 +1,39 @@
+{
+  "name": "eva-miniapp-demo",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "@eva/eva.js": "^1.2.2",
+    "@eva/miniprogram-adapter": "^1.2.2",
+    "@eva/miniprogram-pixi": "^1.2.2",
+    "@eva/plugin-renderer": "^1.2.2",
+    "@eva/plugin-renderer-dragonbone": "^1.2.2",
+    "@eva/plugin-renderer-event": "^1.2.2",
+    "@eva/plugin-renderer-graphics": "^1.2.2",
+    "@eva/plugin-renderer-img": "^1.2.2",
+    "@eva/plugin-renderer-mask": "^1.2.2",
+    "@eva/plugin-renderer-nine-patch": "^1.2.2",
+    "@eva/plugin-renderer-render": "^1.2.2",
+    "@eva/plugin-renderer-spine": "^1.2.2",
+    "@eva/plugin-renderer-sprite": "^1.2.2",
+    "@eva/plugin-renderer-sprite-animation": "^1.2.2",
+    "@eva/plugin-renderer-lottie": "^1.2.2",
+    "@eva/plugin-renderer-text": "^1.2.2",
+    "@eva/plugin-renderer-tiling-sprite": "^1.2.2",
+    "@eva/plugin-transition": "^1.2.2",
+    "@eva/renderer-adapter": "^1.2.2",
+    "tslib": "^2.2.0"
+  },
+  "resolution": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.alibaba-inc.com:eva/eva-miniprogram-demo.git"
+  },
+  "author": "",
+  "license": "ISC"
+}

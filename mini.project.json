@@ -1,0 +1,6 @@
+{
+  "node_modules_es6_whitelist": [
+    "lodash-es"
+  ],
+  "enableAppxNg": true
+}

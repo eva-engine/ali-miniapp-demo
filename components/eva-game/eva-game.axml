@@ -1,0 +1,1 @@
+<canvas a:if="{{isRunCanvas}}" class="canvas" id="canvas" type="webgl" style="width:{{targetWidth}}rpx;height:{{targetHeight}}rpx" onTouchStart="onTouchHandle" onTouchEnd="onTouchHandle" onTouchMove="onTouchHandle" onTouchCancel="onTouchHandle" onReady="onCanvasReady"></canvas>

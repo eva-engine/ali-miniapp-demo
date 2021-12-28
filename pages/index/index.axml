@@ -1,0 +1,4 @@
+<view class="page-game">
+  <eva-game id="eva-game" options={{appOptions}} destroyAppOnDidUnmount="true" onError="onPixiCanvasError" onDidUnmount="onPixiCanvasDidUnmount" 
+    onAppInit="onAppInit"></eva-game>
+</view>
