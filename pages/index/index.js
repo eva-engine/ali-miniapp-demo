@@ -9,6 +9,9 @@ import { NinePatch, NinePatchSystem } from '@eva/plugin-renderer-nine-patch/dist
 import { Mask, MaskSystem, MASK_TYPE } from '@eva/plugin-renderer-mask/dist/miniprogram';
 import { SpriteAnimation, SpriteAnimationSystem } from '@eva/plugin-renderer-sprite-animation/dist/miniprogram'
 
+const GAME_WIDTH  = 750
+const GAME_HEIGHT = 1000
+
 Page({
   // 供pixi渲染的canvas
   canvas: null,
@@ -19,8 +22,8 @@ Page({
   data: {
     appOptions: {
       // 手动指定application的尺寸
-      width: 750,
-      height: 1000,
+      width: GAME_WIDTH,
+      height: GAME_HEIGHT,
       // 全屏-以窗口宽高作为application的尺寸，当设置此选项后，手动设置的width\height会失效
       isFullScreen: false,
       // application是否背景透明
@@ -28,7 +31,14 @@ Page({
       // 背景颜色
       backgroundColor: 0x000000,
       // 是否强制用2d上下文渲染，如果为false,则优先使用webgl渲染
-      forceCanvas: false
+      forceCanvas: false,
+
+      // FPS设定
+      // frameRate: 30,
+      // 自动开始
+      // autoStart: true,
+      // 创建默认场景
+      // needScene: true,
     }
   },
   onLoad(query) {
@@ -124,8 +134,8 @@ Page({
 
     // 此处还在考虑如何设置默认场景的宽高
     game.scene.transform.size = {
-      width: 750,
-      height: 1334,
+      width: GAME_WIDTH,
+      height: GAME_HEIGHT,
     };
 
 
