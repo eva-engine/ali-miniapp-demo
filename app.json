@@ -4,6 +4,11 @@
   ],
   "window": {
     "defaultTitle": "Eva.js Demo",
+    "allowsBounceVertical": "NO",
+    "transparentTitle": "always",
+    "titlePenetrate": "YES",
+    "gestureBack": "NO",
+    "enableScrollBar": "NO",
     "enableSkia": "true"
   }
 }

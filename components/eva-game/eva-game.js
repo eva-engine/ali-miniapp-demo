@@ -126,12 +126,19 @@ Component({
     },
     initGameApplication(canvas, options) {
       console.log('initGameApplication');
+      const { frameRate = 30, autoStart = true, needScene = true } = options || {}
+      delete options.frameRate
+      delete options.autoStart
+      delete options.needScene
+
       const rendererSystem = new RendererSystem({
         ...options,
         canvas,
       })
       const game = new Game({
-        frameRate: 30,
+        frameRate: frameRate,
+        autoStart: autoStart,
+        needScene: needScene,
         systems: [rendererSystem]
       })
 
